@@ -38,6 +38,6 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: |
-            jamtur01/animal-farm-nodejs:latest
-            ghcr.io/jamtur01/animal-farm-nodejs:latest
+          tags: | #
+            kriol368/animal-farm-nodejs:latest
+            ghcr.io/kriol368/animal-farm-nodejs:latest
